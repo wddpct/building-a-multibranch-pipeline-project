@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm installing done'
+                echo 'npm installing done'
             }
         }
         stage('Test') {
